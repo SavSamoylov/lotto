@@ -40,7 +40,7 @@ $(document).ready(()=>{
       pastResultsBlock.append(`
         <div class="col-12">
           <div class="animated flipInY past-result-item box-shadow">
-            <div class="past-result-date">${moment(num.draw_date).format("MMM Do")}</div>
+            <div class="past-result-date">${moment(num.draw_date).format("MMMM Do")}</div>
             <div class="past-result-numbers">
               ${numsArray.map(number => `<span>${number}</span>`).join("")}
             </div>
